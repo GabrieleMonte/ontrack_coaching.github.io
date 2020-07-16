@@ -3026,7 +3026,7 @@ hero-btn {
   font-weight: 500;
   margin-bottom: 17px;
   text-transform: uppercase;
-  color: #eb566c;
+  color: #56afeb;
   display: inline-block;
   position: relative;
   padding-left: 68px;
@@ -3045,7 +3045,7 @@ hero-btn {
   content: "";
   width: 54px;
   height: 2px;
-  background: #eb566c;
+  background: #56afeb;
   top: 0;
   left: 0px;
   top: 50%;
@@ -3593,7 +3593,7 @@ hero-btn {
   font-weight: 500;
   margin-bottom: 22px;
   text-transform: uppercase;
-  color: #eb566c;
+  color: #56afeb;
   display: inline-block;
   position: relative;
   padding-left: 100px;
@@ -3612,7 +3612,7 @@ hero-btn {
   content: "";
   width: 70px;
   height: 2px;
-  background: #eb566c;
+  background: #56afeb;
   top: 0;
   left: 0px;
   top: 50%;
@@ -3950,7 +3950,7 @@ hero-btn {
 
 /* line 29, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 .categories-area .single-cat .cat-icon span {
-  color: #eb566c;
+  color: #56afeb;
   font-size: 65px;
   margin-bottom: 30px;
   display: block;
@@ -4433,7 +4433,7 @@ hero-btn {
   content: "";
   width: 54px;
   height: 2px;
-  background: #eb566c;
+  background: #56afeb;
   top: 0;
   left: 0px;
   top: 50%;
