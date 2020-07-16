@@ -4558,7 +4558,7 @@ hero-btn {
 
 /* line 64, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
-  color: #f04e3c;
+  color: #1593d6;
   font-size: 30px;
   font-weight: 600;
 }
@@ -4572,7 +4572,7 @@ hero-btn {
 
 /* line 72, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text p {
-  color: #57667e;
+  color: #1593d6;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -4597,17 +4597,17 @@ hero-btn {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  color: #616373;
+  color: #21547a;
   background: none;
   margin: 0 auto;
   bottom: 0;
-  border: 1px solid #616373;
+  border: 1px solid #21547a;
 }
 
 /* line 101, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
 .testimonial-area button.slick-arrow:hover {
-  border: 1px solid #f04e3c;
-  color: #f04e3c;
+  border: 1px solid #1593d6;
+  color: #1593d6;
 }
 
 /* line 106, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
@@ -4630,12 +4630,12 @@ hero-btn {
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
 .footer-area {
-  background: #11141b;
+  background: #21547a;
 }
 
 /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-top {
-  border-bottom: 1px solid #233148;
+  border-bottom: 1px solid #21547a;
 }
 
 /* line 6, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
