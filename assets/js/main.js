@@ -265,6 +265,9 @@
 
 })(jQuery);
 
-function togglePopup(){
-  document.getElementById("popup-1").classList.toggle("active");
-}
+	document.querySelector('.bg-modal').style.display = "flex";
+});
+
+document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "none";
+});
