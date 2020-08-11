@@ -306,65 +306,80 @@
                         <h2 class="contact-title">Let's Talk</h2>
                     </div>
                     <div class="col-lg-8">
- 			<form method="post" action="https://formspree.io/gabrielemontef@gmail.com" id="contactfrm" role="form">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="single-textarea" placeholder="Message" onfocus="this.placeholder = ''"
+<form method="post" action="https://formspree.io/gabrielemontef@gmail.com" id="contactform" role="form">
+								<div class="mt-10">
+									<input type="text" name="first_name" placeholder="First Name"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required
+										class="single-input">
+								</div>
+								<div class="mt-10">
+									<input type="text" name="last_name" placeholder="Last Name"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required
+										class="single-input">
+								</div>
+								<div class="mt-10">
+									<input type="text" name="last_name" placeholder="Last Name"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required
+										class="single-input">
+								</div>
+								<div class="mt-10">
+									<input type="email" name="EMAIL" placeholder="Email address"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required
+										class="single-input">
+								</div>
+								<div class="input-group-icon mt-10">
+									<div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
+									<input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''"
+										onblur="this.placeholder = 'Address'" required class="single-input">
+								</div>
+								<div class="input-group-icon mt-10">
+									<div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+									<div class="form-select" id="default-select"">
+												<select>
+													<option value=" 1">City</option>
+										<option value="1">Dhaka</option>
+										<option value="1">Dilli</option>
+										<option value="1">Newyork</option>
+										<option value="1">Islamabad</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-group-icon mt-10">
+									<div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+									<div class="form-select" id="default-select"">
+												<select>
+													<option value=" 1">Country</option>
+										<option value="1">Bangladesh</option>
+										<option value="1">India</option>
+										<option value="1">England</option>
+										<option value="1">Srilanka</option>
+										</select>
+									</div>
+								</div>
+	
+								<div class="mt-10">
+									<textarea class="single-textarea" placeholder="Message" onfocus="this.placeholder = ''"
 										onblur="this.placeholder = 'Message'" required></textarea>
-					</div>
-                                </div>
-                                <div class="col-sm-6">
-                                       	<input type="text" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required class="single-input-primary"> 
-				   </div>
-                                </div>
-                                <div class="col-sm-6">
-                                        <input  name="last_name" type="text" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required class="single-input-primary"> 
-				 </div>
-				<div class="input-group-icon col-sm-6">
-					<div class="form-select" id="default-select"">
-					<select>
-						<option value=" 1">Preferred Pronouns</option>
-					<option value="1">she/her/hers</option>
-					<option value="1">he/him/his</option>
-					<option value="1">they/them/their</option>
-					<option value="1">ze/hir/hirs</option>
-					<option value="1">choose not to disclose</option>
-					</select>
-					</div>
-					</div>
-  				<div class="input-group-icon col-sm-6">
-                                        <input name="age" id="age" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Age'" placeholder="Age">
-                                    </div>
-                                </div>
-				<div class="input-group-icon col-sm-6">
-					<div class="form-select" id="default-select"">
-					<select>
-						<option value=" 1">Current School Attended</option>
-					<option value="1">Elementary School</option>
-					<option value="1">Middle School</option>
-					<option value="1">High School</option>
-					<option value="1">University</option>
-					</select>
-					</div>
-					</div>
-  				<div class="input-group-icon col-sm-6">
-                                        <input name="grade" id="grade" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Grade'" placeholder="Grade">
-                                    </div>
-                                </div>
-                                <div class="input-group-icon col-sm-6">
-                                        <input name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" placeholder="Email Address">
-                                    </div>
-                                </div>
-                                <div class="input-group-icon col-sm-6">
-                                        <input name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Preferred Consultant's Name'" placeholder="Preferred Consultant's Name">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Submit</button>
-                            </div>
-                        </form>
+								</div>
+								<div class="mt-10">
+									<input type="text" name="first_name" placeholder="Primary color"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primary color'" required
+										class="single-input-primary">
+								</div>
+								<div class="mt-10">
+									<input type="text" name="first_name" placeholder="Accent color"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Accent color'" required
+										class="single-input-accent">
+								</div>
+								<div class="mt-10">
+									<input type="text" name="first_name" placeholder="Secondary color"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Secondary color'"
+										required class="single-input-secondary">
+								</div>
+							 <div class="form-group mt-3">
+                                			<button type="submit" class="button button-contactForm boxed-btn">Submit</button>
+                            				</div>
+							</form>
 			</div>
                    <div class="col-lg-3 offset-lg-1">
                         <div class="media contact-info">
