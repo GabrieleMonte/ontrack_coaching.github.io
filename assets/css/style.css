@@ -8208,13 +8208,13 @@ border: 1px solid #e5e6e9;
 
 /* line 1035, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #1f2b7b;
+  color: #e5e6e9;
   background: transparent;
 }
 
 /* line 1039, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .form-select .nice-select .list .option:hover {
-  color: #1f2b7b;
+  color: #e5e6e9;
   background: transparent;
 }
 
