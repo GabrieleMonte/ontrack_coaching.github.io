@@ -8167,7 +8167,6 @@ del {
   right: 20px;
 }
 
-/* line 1010, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .form-select {
   height: 40px;
   width: 100%;
@@ -8175,13 +8174,13 @@ del {
 
 /* line 1013, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .form-select .nice-select {
-  border: 1px solid #e5e6e9;
+  border: none;
   border-radius: 0px;
-  height: 48px;
-  padding-left: 0px;
-  font-size: 14px;
-  background: transparent;
-    margin-bottom: 1rem;
+  height: 40px;
+  background: #f9f9ff;
+  padding-left: 45px;
+  padding-right: 40px;
+  width: 100%;
 }
 
 /* line 1021, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
@@ -8209,13 +8208,13 @@ del {
 
 /* line 1035, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #e5e6e9;
+  color: #1f2b7b;
   background: transparent;
 }
 
 /* line 1039, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .form-select .nice-select .list .option:hover {
-  color: #e5e6e9;
+  color: #1f2b7b;
   background: transparent;
 }
 
@@ -8229,7 +8228,6 @@ del {
 .form-select .nice-select::after {
   right: 20px;
 }
-
 /* line 1054, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .mt-10 {
   margin-top: 10px;
