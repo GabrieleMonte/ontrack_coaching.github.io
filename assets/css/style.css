@@ -3815,7 +3815,7 @@ hero-btn {
   height: 60px;
   width: 60px;
   cursor: pointer;
-  border: 1px solid #a6b4bb;
+  border: 1px solid #ffffff;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -3849,7 +3849,7 @@ hero-btn {
 .slider-active button.slick-arrow i {
   font-size: 20px;
   line-height: 60px;
-  color: #a6b4bb;
+  color: #ffffff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -3872,12 +3872,12 @@ hero-btn {
 
 /* line 258, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-active button.slick-next {
-  border: 1px solid #1b4962;
+  border: 1px solid #ffffff;
 }
 
 /* line 260, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-active button.slick-next i {
-  color: #1b4962;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3889,12 +3889,12 @@ hero-btn {
 
 /* line 267, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-active button:hover {
-  border: 1px solid #1b4962;
+  border: 1px solid #ffffff;
 }
 
 /* line 269, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-active button:hover i {
-  color: #1b4962;
+  color: #ffffff;
 }
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
