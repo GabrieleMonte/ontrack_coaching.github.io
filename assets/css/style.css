@@ -5475,7 +5475,7 @@ hero-btn {
 /*================= latest_blog_area css =============*/
 /* line 496, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
 .latest_blog_area {
-  background: #f9f9ff;
+  background: #e9f8ff;
 }
 
 /* line 500, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
@@ -7112,26 +7112,26 @@ del {
 /* line 167, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .genric-btn.default {
   color: #415094;
-  background: #f9f9ff;
+  background: #e9f8ff;
   border: 1px solid transparent;
 }
 
 /* line 171, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .genric-btn.default:hover {
-  border: 1px solid #f9f9ff;
+  border: 1px solid #e9f8ff;
   background: #fff;
 }
 
 /* line 176, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .genric-btn.default-border {
-  border: 1px solid #f9f9ff;
+  border: 1px solid #e9f8ff;
   background: #fff;
 }
 
 /* line 179, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .genric-btn.default-border:hover {
   color: #415094;
-  background: #f9f9ff;
+  background: #e9f8ff;
   border: 1px solid transparent;
 }
 
@@ -7278,7 +7278,7 @@ del {
 /* line 285, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .genric-btn.link {
   color: #415094;
-  background: #f9f9ff;
+  background: #e9f8ff;
   text-decoration: underline;
   border: 1px solid transparent;
 }
@@ -7286,14 +7286,14 @@ del {
 /* line 290, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .genric-btn.link:hover {
   color: #415094;
-  border: 1px solid #f9f9ff;
+  border: 1px solid #e9f8ff;
   background: #fff;
 }
 
 /* line 296, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .genric-btn.link-border {
   color: #415094;
-  border: 1px solid #f9f9ff;
+  border: 1px solid #e9f8ff;
   background: #fff;
   text-decoration: underline;
 }
@@ -7301,14 +7301,14 @@ del {
 /* line 301, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .genric-btn.link-border:hover {
   color: #415094;
-  background: #f9f9ff;
+  background: #e9f8ff;
   border: 1px solid transparent;
 }
 
 /* line 307, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .genric-btn.disable {
   color: #222222, 0.3;
-  background: #f9f9ff;
+  background: #e9f8ff;
   border: 1px solid transparent;
   cursor: not-allowed;
 }
@@ -7316,7 +7316,7 @@ del {
 /* line 315, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
-  background: #f9f9ff;
+  background: #e9f8ff;
   border-left: 2px solid #1f527b;
 }
 
@@ -7327,7 +7327,7 @@ del {
 
 /* line 325, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .progress-table {
-  background: #f9f9ff;
+  background: #e9f8ff;
   padding: 15px 0px 30px 0px;
   min-width: 800px;
 }
@@ -7535,7 +7535,7 @@ del {
   line-height: 40px;
   border: none;
   outline: none;
-  background: #f9f9ff;
+  background: #e9f8ff;
   padding: 0 20px;
 }
 
