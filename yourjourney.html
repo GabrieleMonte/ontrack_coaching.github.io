@@ -108,9 +108,9 @@
 <div class="section-top-border">
 					<div class="row">
 						<div class="col-lg-8 col-md-8">
-							<h2 class="contact-title">Let's Talk</h2>
 							<form method="post" action="https://formspree.io/info@ontrackgaas.com" id="contactform" role="form">
-								 <div class="mt-10">
+								 <h3 class="contact-title">Biographical Info</h3>
+								<div class="mt-10">
 									<input type="text" name="first_name" placeholder="First Name"
 										onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required
 										class="single-input">
@@ -121,13 +121,13 @@
 										class="single-input">
 								</div>
 								<div class="mt-10">
-									<input type="text" name="guardian_name" placeholder="Guardian's Name"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Guardian's Name'"
+									<input type="text" name="guardian_name" placeholder="Guardian Name"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Guardian Name'"
 										class="single-input">
 								</div>
 							<div class="mt-10">
-									<input type="text" name="guardian_phone" placeholder="Guardian's Phone Number"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Guardian's Phone Number'"
+									<input type="text" name="guardian_phone" placeholder="Guardian Phone Number"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Guardian Phone Number'"
 										class="single-input">
 								<div class="mt-10">
 									<input type="text" name="age" placeholder="Age"
@@ -173,15 +173,39 @@
 									<input type="text" name="grade" placeholder="Grade"
 										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Grade'" required
 										class="single-input-primary">
-								</div>	
+								</div>
+								<h3 class="contact-title">Let's Talk</h3>
+								<div class="input-group-icon mt-8">
+									<div class="icon"><i class="fa fa-tasks" aria-hidden="true"></i></div>
+									<div class="form-select">
+												<select name="service_type" id="service_type" form="contactform">
+													<option value=" 0">Type of Service</option>
+										<option value="athletic">Athletic Coaching</option>
+										<option value="academic">Academic Tutoring</option>
+										<option value="both">Both</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-group-icon mt-8">
+									<div class="icon"><i class="fa fa-clock" aria-hidden="true"></i></div>
+									<div class="form-select">
+												<select name="preferred_time_slot" id="preferred_time_slot" form="contactform">
+													<option value=" 1">Preferred time to meet (EST) </option>
+										<option value="5am_11am">btw. 5 to 11 am</option>
+										<option value="11am_5pm">btw. 11 am to 5 pm</option>
+										<option value="5pm_11pm">btw. 5 pm to 11 pm</option>
+										<option value="11pm_4am">btw. 11 pm to 4 am</option>
+										</select>
+									</div>
+								</div>									
+								<div class="mt-10">
+									<input type="text" name="consultant_name" placeholder="Preferred Consultant Name"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Preferred Consultant Name'" required
+										class="single-input-primary">
+								</div>
 								<div class="mt-10">
 									<textarea name="message" class="single-input-primary" id="message" cols="3" rows="5" placeholder="Message" onfocus="this.placeholder = ''"
 										onblur="this.placeholder = 'Message'" required></textarea>
-								</div>
-								<div class="mt-10">
-									<input type="text" name="consultant_name" placeholder="Preferred Consultant's Name"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Preferred Consultant's Name'" required
-										class="single-input-primary">
 								</div>
 								<div class="form-group mt-3">
                                 					<button type="submit" class="button button-contactForm boxed-btn">Submit</button>
