@@ -2607,6 +2607,15 @@ hero-btn {
   }
 }
 
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 713, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding2 {
